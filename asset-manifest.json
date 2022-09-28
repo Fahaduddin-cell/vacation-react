@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vacation-react/static/css/main.6fb0e719.css",
-    "main.js": "/vacation-react/static/js/main.bad7be2f.js",
+    "main.js": "/vacation-react/static/js/main.9db78cd8.js",
     "static/media/pexels-zukiman-mohamad-122366.jpg": "/vacation-react/static/media/pexels-zukiman-mohamad-122366.65c364339c69c86a11c1.jpg",
     "static/media/swmming3.jpg": "/vacation-react/static/media/swmming3.8ed76581519f3e9b9e1d.jpg",
     "index.html": "/vacation-react/index.html",
     "main.6fb0e719.css.map": "/vacation-react/static/css/main.6fb0e719.css.map",
-    "main.bad7be2f.js.map": "/vacation-react/static/js/main.bad7be2f.js.map"
+    "main.9db78cd8.js.map": "/vacation-react/static/js/main.9db78cd8.js.map"
   },
   "entrypoints": [
     "static/css/main.6fb0e719.css",
-    "static/js/main.bad7be2f.js"
+    "static/js/main.9db78cd8.js"
   ]
 }

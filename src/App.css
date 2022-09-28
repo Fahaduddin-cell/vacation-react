@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* / navbar / */
+
+
+
+.navbar {
+  padding-left: 0px !important;
+  font-size: 20px;
+}
+
+.navbar,
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.top-nav-collapse {
+  background-color: rgb(0, 0, 0, 0.8);
+  /* / padding: 0.75rem; / */
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+/*  landing page  */
+
+.landing-div {
+  background: white url("../public/imges/swmming3.jpg") no-repeat scroll center;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+
+.landing-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+
+
+ /* tour img styles  */
+ 
+.tour-image {
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 15px 15px black;
+} 
+
+ /* destination card styles  */
+
+.destination-card {
+  border-radius: 10px !important;
+  color: white;
+  cursor: pointer;
+}
+
+.destination-card-image {
+  border-radius: 10px;
+  position: relative;
+}
+
+.destination-card-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.destination-card h4 {
+  margin-bottom: 0;
+}
+
+.destination-card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: coral;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 0 50px 50px 0;
+  width: 45%;
+  transition: all 0.5s;
+  text-align: right;
+}
+
+.destination-card:hover .destination-card-info {
+  width: 60%;
+  background-color: orangered;
+
+}
+
+ /* location section  */
+
+.location-card {
+  box-shadow: 0 10px 10px black;
+  border-radius: 10px;
+}
+
+
+.location-image {
+   /* height: 350px;  */
+  position: relative;
+}
+
+.location-price {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 250, 0, 0.4);
+  padding: 10px 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+/* / footer style / */
+
+.main-footer {
+  background: white url("../public/imges/pexels-zukiman-mohamad-122366.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.footer-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width:345px){
+  .navbar, .navbar-brand {
+      font-size: 18px !important;
+      font-weight: bold !important;
+      padding: 14px !important;
+  }
+}
